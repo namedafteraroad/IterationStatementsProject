@@ -70,8 +70,8 @@ namespace IterationStatements
             for (var i = 199; i <= numbers.Count; i--)
             {
                 if (i >= 0 && i <= 199)
-                // place numbers[i] inside of the Console.WriteLine() method
-                Console.WriteLine($"{i}");
+                    // place numbers[i] inside of the Console.WriteLine() method
+                    Console.WriteLine(numbers[i]);
             }
 
             //------------End of exercise
